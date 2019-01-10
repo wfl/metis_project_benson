@@ -65,3 +65,34 @@ Approach
     * Curate based on other factors (schools, tech, etc)
     * Top 5 - 10?
         * Curated from top ~20
+
+* Design
+   * Goal: Identify train stations where we can collect emails of people who are likely to attend a Gala dedicated to advancing women in technology.
+   * How: Identify areas that likely have people who would attend this Gala, identify train stations around these locations, identify the train stations with the highest traffic.
+      * With the idea that we can't put people at every train station in the city. Give the client information that allows them to strategically place their resources. 
+
+* Data
+   * MTA turnstile data 
+      * Traffic is determined per turnstile and there are multiple turnstiles 
+   * Other datas...
+
+* Algorithm
+   * We are determining the locations with the highest traffic
+      * Clean data column names
+      * Subdivide by turnstile and sum totals
+      * Total traffic by station
+      
+* Tools
+   * Jupyter Notebooks
+   * Python
+   * Pandas
+   * Numpy
+   * Google
+   * Stack Overflow
+   * Excel
+
+* Communcation
+   * Kristen - Talk about determining demographics to target and locations where those demographics reside
+   * Wen Fung - Debugging the algorithm
+   * Torin - Algorithm 
+
